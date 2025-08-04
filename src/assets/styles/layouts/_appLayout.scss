@@ -1,0 +1,16 @@
+@use '../abstracts/media-query' as *;
+
+.app-layout {
+  @apply grid items-center content-center h-full;
+
+  &__layout-img {
+    @apply w-full h-full object-cover absolute -z-10 top-0 left-0;
+  }
+  @media (max-width: $pc) {
+    @apply block;
+  }
+
+  &__body {
+    @apply flex flex-col overflow-hidden;
+  }
+}

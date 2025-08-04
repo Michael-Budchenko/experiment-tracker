@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/vite-env.d.ts","./src/pages/app/app.tsx","./src/pages/app/components/experimentselector.tsx","./src/pages/app/components/fileuploader.tsx","./src/pages/app/components/metriccharts.tsx"],"version":"5.8.3"}
